@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#373537;
+    width: 100%;
+}
+.navbar{
+    background: #4E4B4E;
+    box-shadow: 1px 3px 11px -5px #ffffff;
+    padding: 1%;
+}
+
+.todo{
+    display: flex;
+    padding: 1%;
+    width: 80%;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+.columna{
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 4%;
+    margin-top: 2%;
+}
+
+.trabajos{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.columna2{
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.texto{
+    text-align: justify;
+    padding: 5%;
+    color: white;
+}
+
+p{
+    color:white;
+}
+
+h2{
+    color:white;
+}
+
+h1{
+    color:white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.imagen{
+    margin-top: 5%;
+    border: 3px #1b1b1b solid;
+    border-radius: 20px;
+    box-shadow: 1px 3px 11px -5px #ffffff;
+    width: 80%;
+    height: auto;
+}
+
+.imagen2{
+    margin-top: 5%;
+    border: 3px #1b1b1b solid;
+    border-radius: 20px;
+    box-shadow: 1px 3px 11px -5px #ffffff;
+    width: 50%;
+    height: auto;
+}
+
+.presentacion{
+    background-color:#4E4B4E;
+    box-shadow: 1px 3px 11px -5px #ffffff;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.presentacion ul{
+    list-style: none;
+    padding: 5%;
+}
+
+.presentacion ul li{
+    padding: 5% 0;
+    background-color: white;
+    border-radius:20px;
+    margin-top: 3%;
+}
+
+.presentacion2{
+    background-color:#4E4B4E;
+    box-shadow: 1px 3px 11px -5px #ffffff;
+    width: 100%;
+    border-radius: 5%;
+    margin-top: 20%;
+}
+
+.presentacion2 ul{
+    list-style: none;
+    padding: 5%;
+}
+
+.presentacion2 ul li{
+    padding: 5% 0;
+    background-color: white;
+    border-radius:20px;
+    margin-top: 5%;
+}
+
+.presentacion2 li{
+    transition: all 0.4s ease 0s;
+}
+
+.presentacion2 li:hover{
+    transform: translateY(10%);
+}
+
+
+.trabajo{
+    background: #4E4B4E;
+    box-shadow: 1px 3px 11px -5px #ffffff;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.trabajo ul{
+    list-style: none;
+    padding: 2%;
+}
+
+.trabajo ul li{
+    padding: 2% 0;
+    background-color: white;
+    border-radius:20px;
+    margin-top: 3%;
+}
+
+.trabajo li{
+    transition: all 0.4s ease 0s;
+}
+
+.trabajo li:hover{
+    transform: translateY(10%);
+}
+
+.trabajo2{
+    background: #4E4B4E;
+    box-shadow: 1px 3px 11px -5px #ffffff;
+    width: 100%;
+    border-radius: 5%;
+    margin-top: 10%;
+}
+
+.trabajo2 ul{
+    list-style: none;
+    padding: 2%;
+}
+
+.trabajo2 ul li{
+    padding: 2% 0;
+    background-color: white;
+    border-radius:20px;
+    margin-top: 3%;
+}
+
+.trabajo2 li{
+    transition: all 0.4s ease 0s;
+}
+
+.trabajo2 li:hover{
+    transform: translateY(10%);
+}
+
+.habilidades{
+    background-color: #4E4B4E;
+    box-shadow: 1px 3px 11px -5px #ffffff;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.habilidades ul{
+    list-style: none;
+    padding: 5%;
+}
+
+.habilidades ul li{
+    padding: 5% 0;
+    background-color: white;
+    border-radius:20px;
+    margin-top: 3%;
+}
+
+.habilidades2{
+    background-color: #4E4B4E;
+    box-shadow: 1px 3px 11px -5px #ffffff;
+    width: 100%;
+    border-radius: 5%;
+    margin-top: 20%;
+}
+
+.habilidades2 ul{
+    list-style: none;
+    padding: 5%;
+}
+
+.habilidades2 ul li{
+    padding: 5% 0;
+    background-color: white;
+    border-radius:20px;
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 1000px){
+    .todo{
+        width: 100%;
+    }
+    .columna {
+        width: 100%;
+    }   
+    .trabajos {
+        width: 100%;
+    }  
+    .columna2 {
+        width: 100%;
+    }  
+}
+
+@media screen and (max-width: 700px){  
+    .todo {
+        flex-direction: column;
+        width: 70%;
+    }   
+    .trabajos{
+        margin-top: 10%;
+    }
+    .columna2{
+        margin-top: 10%;
+    }
+}
+}
